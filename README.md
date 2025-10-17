@@ -2,7 +2,7 @@
 
 # @rn-org/react-native-annotated-text
 
-Style parts of text to improve readability, increase positive user experience, and encourage greater creativity through use of colors and fonts.
+Style parts of text to improve readability, increase positive user experience, and encourage greater creativity through use of colors and fonts. Inspired from Jetpack Compose.
 
 Fully compatible with TypeScript & Turbomodules.
 
