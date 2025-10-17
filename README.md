@@ -1,5 +1,7 @@
 [![npm](https://img.shields.io/npm/v/@rn-org/react-native-annotated-text.svg)](https://npmjs.com/@rn-org/react-native-annotated-text) [![React Native](https://img.shields.io/badge/React_Native-21232a?style=flat&logo=react&logoColor=0a7ea4&logoSize=small.svg)]() [![Android](https://img.shields.io/badge/Android-green?style=flat&logo=android&logoColor=white)]() [![iOS](https://img.shields.io/badge/iOS-21232a?style=flat&logo=ios&logoColor=white)]() ![RN 0.81.1](https://img.shields.io/badge/RN-0.81.1-brightgreen)
 
+# @rn-org/react-native-annotated-text
+
 Style parts of text to improve readability, increase positive user experience, and encourage greater creativity through use of colors and fonts.
 
 Fully compatible with TypeScript & Turbomodules.
