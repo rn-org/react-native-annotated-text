@@ -4,15 +4,17 @@ import { View } from 'react-native';
 const App = () => {
   return (
     <View style={{ padding: 40 }}>
-      <AnnotatedText
-        build={(append, withStyle) => {
-          withStyle({ color: 'blue' }, () => append('H'));
-          append('ello ');
-          withStyle({ fontWeight: 'bold', color: 'red' }, () => append('W'));
-          append('orld');
-        }}
-        containerStyle={{ marginTop: 100, fontSize: 24 }}
-      />
+<AnnotatedText
+  annotatedString={(append, withStyle) => {
+    withStyle({ fontSize: 24 }, () => append('Hello '));
+    withStyle(
+      { fontWeight: 'bold', fontSize: 24 },
+      () => append('Gradient'),
+      ['#FF0000', '#0000FF']
+    );
+    withStyle({ fontSize: 24 }, () => append(' World!'));
+  }}
+/>
     </View>
   );
 };

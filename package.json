@@ -152,5 +152,9 @@
     "languages": "kotlin-objc",
     "type": "turbo-module",
     "version": "0.54.6"
+  },
+  "dependencies": {
+    "@react-native-masked-view/masked-view": "^0.3.2",
+    "react-native-linear-gradient": "^2.8.3"
   }
 }

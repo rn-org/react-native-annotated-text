@@ -10,9 +10,11 @@
     "build:ios": "react-native build-ios --mode Debug"
   },
   "dependencies": {
+    "@react-native-masked-view/masked-view": "^0.3.2",
     "@react-native/new-app-screen": "0.81.1",
     "react": "19.1.0",
     "react-native": "0.81.1",
+    "react-native-linear-gradient": "^2.8.3",
     "react-native-safe-area-context": "^5.5.2"
   },
   "devDependencies": {

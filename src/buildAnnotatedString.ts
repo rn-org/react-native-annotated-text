@@ -8,7 +8,11 @@ export const buildAnnotatedString = (builder: BuilderFn): TextSegment[] => {
     parts.push({ text });
   };
 
-  const withStyle = (style: TextStyle, fn: () => void) => {
+  const withStyle = (
+    style: TextStyle,
+    fn: () => void,
+    gradient?: string[]
+  ) => {
     const startIndex = parts.length;
     fn();
     const styled = parts.splice(startIndex);
@@ -19,6 +23,7 @@ export const buildAnnotatedString = (builder: BuilderFn): TextSegment[] => {
           ...(part.style || {}),
           ...style,
         },
+        ...(gradient ? { gradient } : {}),
       });
     });
   };
